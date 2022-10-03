@@ -6,7 +6,7 @@
 }
 
 body{
-    background: linear-gradient(359.67deg, #AAAAAA 11.92%, rgba(241, 207, 204, 0) 130.66%);
+    background: whitesmoke;
     font-family: 'Abyssinica SIL', serif;
     flex-wrap: wrap;
     margin: auto;
@@ -88,13 +88,26 @@ nav a:hover{
     padding-top: 50px;
 }
 
+main a{
+    color: red;
+}
+
 .conteudo-biográfico{
     margin-right: 200px;
     margin-left: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px;
     text-align: justify;
     flex-wrap: wrap;
     gap: 200px;
     font-weight: 400;
+    background-color: #484848;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    
+    
 }
 
 .img-conteudo-biográfico{
@@ -123,9 +136,10 @@ nav a:hover{
     gap: 70px;
     align-items: center;
     padding-top: 30px;
-    padding-bottom: 100px;
-    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-right: 20px;
     padding-left: 50px;
+    
     
 }
 
@@ -137,6 +151,10 @@ nav a:hover{
     padding-left: px;
     text-align: center;
     padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: #030202 solid 0.5px;
+    margin-right: 400px;
+    margin-left: 400px;
 }
 
 .album-tamanho{
@@ -208,7 +226,7 @@ nav a:hover{
     font-weight: 400;
     display: block;
     flex-direction: column;
-    
+    font-size: 18px;
 }
 
 .quarto-conteudo-titulo{
@@ -216,8 +234,12 @@ nav a:hover{
     font-style: normal;
     font-size: 30px;
     font-weight: 400;
-    padding-bottom: 12px;
-    padding-top: 20px;
+    padding-bottom: 8px;
+    padding-top: 25px;
+    text-align: center;
+    border-top: #030202 solid 1px;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 .img-quarto-conteudo{
@@ -243,6 +265,7 @@ nav a:hover{
     padding-top: 10px;
     padding-bottom: 20px;
     text-align: justify;
+    font-size: 18px;
 }
 
 .conteudo-podcast-spotify{
@@ -255,7 +278,7 @@ nav a:hover{
     font-family: 'Abril Fatface';
     font-weight: 100;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     font-weight: 400;
     font-size: 30px;
 }
