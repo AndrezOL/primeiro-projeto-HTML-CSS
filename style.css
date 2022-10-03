@@ -1,0 +1,269 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(359.67deg, #AAAAAA 11.92%, rgba(241, 207, 204, 0) 130.66%);
+    font-family: 'Abyssinica SIL', serif;
+    flex-wrap: wrap;
+    margin: auto;
+    color: black;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: #030202 solid 1px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+.img-cabecalho{
+    width: 320px;
+    height: 78px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    gap: 27px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+nav a{
+    color: black;
+    font-weight: bold;
+    font-family: 'Abril Fatface';
+    
+}
+
+nav a:hover{
+    color: gray;
+}
+
+.primeiro-conteudo{
+    display: flex;
+    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    margin-bottom: 15px;   
+}
+
+.primeiro-conteudo-escrito{
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 100px;
+    text-align: center;
+    padding-top: 25px;
+    flex-wrap: wrap;
+    padding-right: px;
+    margin-right: 0;
+    text-align: justify;
+}
+
+.primeiro-conteudo-escrito-titulo{
+    /* border-top: black solid 1px; */
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.primeiro-conteudo-img{
+    padding-bottom: 5px;
+    padding-top: 50px;
+}
+
+.conteudo-biográfico{
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: justify;
+    flex-wrap: wrap;
+    gap: 200px;
+    font-weight: 400;
+}
+
+.img-conteudo-biográfico{
+    width: 449px;
+    height: 200px;
+}
+
+.conteudo-biográfico-titulo{
+    padding-bottom: 12px;
+    padding-top: 20px;
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    text-align: center;
+    margin: 0%;
+}
+
+.segundo-conteudo{
+    display: flex;
+    gap: 0px;
+    margin-right: 0px;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    flex-direction:row;
+    gap: 70px;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+    
+}
+
+.segundo-conteudo-titulo{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    padding-left: px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.album-tamanho{
+    border-color: #1B1B1B;
+    border-radius: 5px;
+    color: black;
+    width: 200px;
+    /* justify-content: center; */
+    flex-direction: row;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900px;
+}
+
+.album-tamanho-titulo{
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.album-tamanho-conteudo-escrito{
+    padding-bottom: 7px;
+}
+
+.img-capa-dos-albuns{
+    width: 200px;
+    height: 200px;
+    border-style: none;
+    padding-left: 0px;
+    border-radius: 5px;
+}
+
+.terceiro-conteudo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-top: 70px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    gap: 25px;
+    padding-bottom: 80px;
+    
+    /* flex-wrap: wrap; */
+}
+
+.terceiro-conteudo-escrito{
+    padding-right: 150px;
+    padding-left: 200px;
+    padding-top: 35px;
+}
+
+.terceiro-conteudo-escrito-titulo{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-size: 35px;
+}
+
+.terceiro-conteudo-escrito-p{
+    padding-top: 9px;
+    font-style: italic;
+    font-size: 20px;
+
+}
+
+.quarto-conteudo{
+    margin-right: 200px;
+    margin-left: 200px;
+    text-align: justify;
+    flex-wrap: wrap;
+    font-weight: 400;
+    display: block;
+    flex-direction: column;
+    
+}
+
+.quarto-conteudo-titulo{
+    font-family: 'Abril Fatface';
+    font-style: normal;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 12px;
+    padding-top: 20px;
+}
+
+.img-quarto-conteudo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.quarto-conteudo-subtitulo{
+    font-family: 'Abril Fatface';
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.conteudo-podcast{
+    margin-right: 300px;
+    margin-left: 300px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.conteudo-podcast-spotify{
+    margin-right: 150px;
+    margin-left: 150px;
+    padding-top: 10px;
+}
+
+#conteudo-podcast-titulo{
+    font-family: 'Abril Fatface';
+    font-weight: 100;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: #030202;
+    color: aliceblue;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    align-items: center;
+}
